@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	color: #504863;
 }
 
 body {
@@ -22,14 +23,27 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+.creator {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 20px;
+	color: gray;
+	text-decoration: none;
+}
+
+.creator a {
+	color: pink;
+}
+
 .searchbox {
  width: 90%;
-  margin: 10px auto;
+  margin: 50px auto 30px auto;
 }
 
 #value{
   border: none;
-  background: #E0D3B6;
+  background: #a08fc7;
   padding: 6px;
   font-size: 18px;
   width: 80%;
@@ -63,7 +77,6 @@ body {
 
 .grid-info h5 {
 	font-size: 18px;
-	color: #4A4A4A;
 	margin-bottom: 10px;
 }
 
@@ -78,7 +91,6 @@ body {
 	display: inline-block;
 	margin: 0;
 	font-size: 13px;
-	color: #4A4A4A;
 	line-height: normal;
 	vertical-align: middle;
 }
