@@ -27,7 +27,7 @@
         <input type="text" id="value" placeholder="쿠키 이름(한/영) 또는 주민 이름을 검색하세요">
       </div>
   </div>
-      <div class="creator"><span>만든이: </span><a href="https://blog.naver.com/hyobbang99" target="_blank">김효빵</a></div>
+      <div class="creator"><span>수정1: </span><a href="https://blog.naver.com/hyobbang99" target="_blank">김효빵</a></div>
 	<div class="container">
 		<div id="fortunelist">
 		<div class="row">
@@ -1018,21 +1018,21 @@
         value = document.getElementById("value").value.toUpperCase();
         item = document.getElementsByClassName("info");
 
-        for(i=0;i<item.length;i++){
-          name = item[i].getElementsByClassName("name");
-          name_eng = item[i].getElementsByClassName("name-eng");
-          animal = item[i].getElementsByClassName("animal");
-          if(name[0].innerText.toUpperCase().includes(value) || name_eng[0].innerText.toUpperCase().includes(value)){
-            item[i].style.display = "inline-block";
-          }else{
-            item[i].style.display = "none";
-          }
-          if(animal.length != 0) {
-          	if(animal[0].innerText.toUpperCase().includes(value)) {
-          		item[i].style.display = "inline-block";
-          	}
-          }
-        }
+        // for(i=0;i<item.length;i++){
+        //   name = item[i].getElementsByClassName("name");
+        //   name_eng = item[i].getElementsByClassName("name-eng");
+        //   animal = item[i].getElementsByClassName("animal");
+        //   if(name[0].innerText.toUpperCase().includes(value) || name_eng[0].innerText.toUpperCase().includes(value)){
+        //     item[i].style.display = "inline-block";
+        //   }else{
+        //     item[i].style.display = "none";
+        //   }
+        //   if(animal.length != 0) {
+        //   	if(animal[0].innerText.toUpperCase().includes(value)) {
+        //   		item[i].style.display = "inline-block";
+        //   	}
+        //   }
+        // }
       }
       setInterval(filter, 100);
 </script>
