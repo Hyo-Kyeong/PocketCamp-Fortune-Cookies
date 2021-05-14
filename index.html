@@ -24,7 +24,7 @@
 	<div class="searchbox">
       <div class="header">
         <h1>Search</h1>
-        <input oninput="filter()" type="text" id="value" placeholder="쿠키 이름(한/영) 또는 주민 이름을 검색하세요">
+        <input type="text" id="value" placeholder="쿠키 이름(한/영) 또는 주민 이름을 검색하세요">
       </div>
   </div>
       <div class="creator"><span>만든이: </span><a href="https://blog.naver.com/hyobbang99" target="_blank">김효빵</a></div>
@@ -1013,7 +1013,6 @@
 
   <script type="text/javascript">
       function filter(){
-
         var value, name, item, i;
 
         value = document.getElementById("value").value.toUpperCase();
@@ -1035,6 +1034,7 @@
           }
         }
       }
+      setInterval(filter, 100);
 </script>
 </body>
 
