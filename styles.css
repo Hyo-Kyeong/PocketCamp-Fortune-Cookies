@@ -9,15 +9,10 @@ body {
 
 
 .container {
-	width
+	width: 90%;
 	margin-bottom: 70px;
 }
 
-@media (min-width: 1200px) {
-	.container {
-	    max-width: 1200px;
-	}
-}
 
 .header {
   overflow: hidden;
@@ -49,6 +44,7 @@ body {
 input {
 	font-size: 30px;
 }
+
 #value{
   border: none;
   background: #a08fc7;
