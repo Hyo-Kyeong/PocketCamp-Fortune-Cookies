@@ -14,9 +14,15 @@ body {
 }
 
 @media (min-width: 768px) {
-	.container {
-    max-width: 90%;
+	.container { max-width: 90%; }
 }
+@media (min-width: 992px) {
+	.container { max-width: 90%; }
+}
+@media (min-width: 1200px) {
+	.container { max-width: 90%; }
+}
+
 
 .header {
   overflow: hidden;
