@@ -4,6 +4,17 @@
   <title>Pocketcamp 포켓캠프 쿠키리스트</title>
   <meta charset="utf-8">
 
+  <!-- sns share -->
+  <meta property="og:url" content="https://hyo-kyeong.github.io/PocketCamp-Fortune-Cookies/" />
+  <meta property="og:title" content="포켓캠프 포춘쿠키 검색" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/share.png" />
+  <meta property="og:description" content="포켓캠프 한국어 포춘쿠키 목록" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./imges/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" href="./img/favicon.ico" />
+
   <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -13,7 +24,7 @@
 	<div class="searchbox">
       <div class="header">
         <h1>Search</h1>
-        <input onkeypress="filter()" type="text" id="value" placeholder="쿠키 이름(한/영) 또는 주민 이름을 검색하세요">
+        <input oninput="filter()" type="text" id="value" placeholder="쿠키 이름(한/영) 또는 주민 이름을 검색하세요">
       </div>
   </div>
       <div class="creator"><span>만든이: </span><a href="https://blog.naver.com/hyobbang99" target="_blank">김효빵</a></div>
