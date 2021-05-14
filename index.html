@@ -24,10 +24,10 @@
 	<div class="searchbox">
       <div class="header">
         <h1>Search</h1>
-        <input type="text" id="value" placeholder="쿠키 이름(한/영) 또는 주민 이름을 검색하세요">
+        <input onkeypress="if (event.keyCode == 13) {filter();}" type="text" id="value" placeholder="쿠키 이름(한/영) 또는 주민 이름을 검색하세요">
       </div>
   </div>
-      <div class="creator"><span>수정2: </span><a href="https://blog.naver.com/hyobbang99" target="_blank">김효빵</a></div>
+      <div class="creator"><span>만든이: </span><a href="https://blog.naver.com/hyobbang99" target="_blank">김효빵</a></div>
 	<div class="container">
 		<div id="fortunelist">
 		<div class="row">
@@ -1034,7 +1034,6 @@
           }
         }
       }
-      setInterval(filter, 500);
 </script>
 </body>
 
